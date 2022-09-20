@@ -7,3 +7,7 @@
     border: none;
     outline: none;
 }
+.wrap{
+    width: 100px;
+    background: #000;
+}
