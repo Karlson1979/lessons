@@ -1,0 +1,48 @@
+
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+.wrap{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "blu orang"
+    "red"
+    "yellow yellow-1 yellow-2" 
+    ;
+    grid-template-columns: 1fr 4fr;
+.blu{
+    grid-area: blu;
+    background: rgb(43, 143, 243);
+}
+.orang{
+    grid-area: orang;
+    background: rgb(239, 153, 31); 
+}
+.red{
+    grid-area: red;
+    
+    background: rgb(241, 94, 45);
+}
+.yellow{
+    grid-area: yellow;
+
+    background: rgb(240, 252, 62);
+}
+.yellow-1{
+    grid-area: yellow-1;
+
+    background: rgb(240, 252, 62);
+}
+.yellow-2{
+    grid-area: yellow-2;
+
+    background: rgb(240, 252, 62);
+}}
