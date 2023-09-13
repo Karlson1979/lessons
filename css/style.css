@@ -1,9 +1,7 @@
-*,body,html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    outline: none;
-}
+#buttonHelp {
+  margin: 20px;
+  width: 80px;
+  height: 40px;
+  background: #e70909;
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */
